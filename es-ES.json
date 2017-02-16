@@ -1,0 +1,496 @@
+{
+  "GENERIC_TECHNICAL_ERROR": "Ha habido un error",
+  "LANGUAGES": {
+	"en-GB": "Ingles",
+	"en-US": "Americano",
+	"es-ES": "Español",
+	"pt-PT": "Portugues"
+  },
+  "HOME": {
+	"search": "Busca Sociedades, Proyectos, Aplicaciones, Google Apps o Usuarios..."
+  },
+  "BILLING": {
+	"billing": "Facturación",
+	"TOTAL": "TOTAL ",
+	"Amount": "Importe",
+	"filter": "Filtrar",
+	"By_Project": "Por Proyecto",
+	"By_Stakeholder": "Por Sociedad",
+	"By_Structural": "Por Estructural",
+	"By_Concept": "Por Concepto",
+	"By_Tax": "Por Tasa Fija",
+	"Date": "Fecha",
+	"Month": "Mes",
+	"ID": "ID",
+	"stakeholder": "Sociedad",
+	"project": "Proyecto",
+	"app": "Aplicación",
+	"gae-app": "Proyecto Google Cloud Platform",
+	"concept": "Concepto",
+	"Quantity": "Cantidad",
+	"Unit": "Unidad",
+	"Overview": "Visión General",
+	"BillingAccount": "Cuenta de facturación",
+	"UnconsolidatedData": "Está consultando datos no consolidados.",
+	"UnitsSelect": "Selección de unidades",
+	"UNITS": {
+	  "timeUnit": "Unidad de tiempo",
+	  "requestUnit": "Unidad de peticiones",
+	  "sizeUnit": "Unidad de tamaño"
+	},
+	"Export": "Exportar datos a Google Drive",
+	"ChangeUnits": "Cambiar unidades",
+
+	"GoToBilling": "Ir a facturación",
+
+	"EXPORT_ALERTS":{
+
+	  "OK_1": "Los datos están siendo exportados en el siguiente documento:",
+	  "OK_2":"<b>El documento ya es accesible pero la exportación se prolongará durante unos segundos.</b> Si lo abre antes de que ésta termine puede que sea necesario refrescar la pestaña del navegador para ver el resultado final."
+	}
+  },
+  "DATERANGE_DIRECTIVE": {
+	"month": "Mes",
+	"startDate": "Fecha inicial",
+	"endDate": "Fecha final",
+	"details": "Vista detallada"
+  },
+  "CATEGORY": {
+	"filter": "Filtrar..."
+  },
+  "ACTIONS": "Acciones",
+  "groupsField": {
+	"group": "Grupo",
+	"addGroup": "Añadir grupo",
+	"groupRole": "Rol",
+	"userList": "Usuarios del grupo",
+	"noRole": "Seleccione rol"
+  },
+  "entities": {
+	"stakeholder-rate": {
+	  "name": "Tasas de reparto de Sociedades",
+	  "fields": {
+		"stakeholder": {
+		  "label": "Sociedad"
+		},
+		"percent": {
+		  "label": "Tasa"
+		}
+	  }
+	},
+	"timemarks-bean": {
+	  "fields": {
+		"created": {
+		  "label": "Fecha de alta"
+		},
+		"updated": {
+		  "label": "Fecha de edición"
+		},
+		"deleted": {
+		  "label": "Fecha de baja"
+		}
+	  }
+	},
+	"component": {
+	  "name": "Componente",
+	  "plural-name": "Componentes",
+	  "fields": {
+		"appid": {
+		  "label": "Google App"
+		},
+		"kind": {
+		  "label": "Tipo de Componente",
+		  "appengine": "App Engine"
+		}
+	  },
+	  "categories": {
+		"general": "General"
+	  }
+	},
+	"archetype": {
+	  "name": "Arquetipo",
+	  "plural-name": "Arquetipos",
+	  "fields": {
+		"language": {
+		  "label": "Lenguaje",
+		  "hint": "Selecciona el lenguaje de programación"
+		},
+		"version": {
+		  "label": "Versión",
+		  "hint": "Indica la versión del arquetipo (X.Y.Z)"
+		},
+		"status": {
+		  "label": "Estado",
+		  "hint": "¿En qué estado está el arquetipo?",
+		  "draft": "Borrador",
+		  "published": "Productivo",
+		  "deprecated": "Descatalogado"
+		}
+	  }
+	},
+	"user": {
+	  "name": "Usuario",
+	  "plural-name": "Usuarios",
+	  "fields": {
+		"name": {
+		  "label": "Nombre completo",
+		  "hint": ""
+		},
+		"email": {
+		  "label": "Email BBVA",
+		  "hint": "Introduce la dirección @bbva.com"
+		},
+		"dev_email": {
+		  "label": "Email DEV",
+		  "hint": "Introduce la dirección @dev.bbva.com"
+		},
+		"administration": {
+		  "label": "Admin",
+		  "hint": "Adminsitrador global MoneyPenny"
+		},
+		"project_creation": {
+		  "label": "Creación de proyectos",
+		  "hint": ""
+		},
+		"user_creation": {
+		  "label": "Creación de usuarios",
+		  "hint": ""
+		},
+		"permissions": {
+		  "label": "Permisos",
+		  "hint": ""
+		}
+	  }
+	},
+	"project": {
+	  "name": "Proyecto",
+	  "plural-name": "Proyectos",
+	  "fields": {
+		"name": {
+		  "label": "Nombre",
+		  "hint": "Introduce un nombre para el proyecto"
+		},
+		"description": {
+		  "label": "Descripción",
+		  "hint": ""
+		},
+		"owner": {
+		  "label": "Product Owner",
+		  "short-label": "Owner",
+		  "hint": "¿Quién ostenta el rol de Product Owner?"
+		},
+		"managers": {
+		  "label": "Project Managers"
+		},
+		"manager": {
+		  "label": "Project Manager",
+		  "short-label": "Manager",
+		  "hint": "¿Quién gestiona el proyecto?"
+		},
+		"bbvamanager": {
+		  "label": "Responsable BBVA",
+		  "hint": "Correo electrónico del responsable (@bbva.com)"
+		},
+		"status": {
+		  "label": "Estado",
+		  "hint": "",
+		  "poc": "Prueba de concepto",
+		  "dev": "Desarrollo",
+		  "pro": "Producción",
+		  "sla": "ANS",
+		  "non-identified": "Sin identificar",
+		  "deprecated": "Deprecada"
+		},
+		"docs": {
+		  "label": "Documentación",
+		  "hint": "Enlace a la carpeta de documentación de Google Drive"
+		},
+		"pm": {
+		  "label": "Gestión de proyectos",
+		  "hint": "Introduce el ID del proyecto en la herramienta"
+		},
+		"apps": {
+		  "label": "Aplicaciones",
+		  "hint": "",
+		  "actions": {
+			"viewapp": {
+			  "label": "Ver"
+			}
+		  }
+		},
+		"stakeholders": {
+		  "label": "Sociedades"
+		},
+		"c104": {
+		  "label": "Documento de seguridad"
+		},
+		"extra": {
+		  "docs": {
+			"label": "Documentación adicional"
+		  }
+		}
+	  },
+	  "categories": {
+		"general": "General",
+		"managers": "Project Managers",
+		"apps": "Aplicaciones",
+		"stakeholders": "Sociedades"
+	  }
+	},
+	"git-repo": {
+	  "fields": {
+		"repo": {
+		  "label": "Repositorio"
+		}
+	  }
+	},
+	"app": {
+	  "name": "Aplicación",
+	  "plural-name": "Aplicaciones",
+	  "fields": {
+		"name": {
+		  "label": "Nombre",
+		  "hint": ""
+		},
+		"description": {
+		  "label": "Descripción",
+		  "hint": ""
+		},
+		"type": {
+		  "label": "Tipo",
+		  "hint": "Tipo de aplicación",
+		  "foundational": "Fundacional",
+		  "structural": "Estructural",
+		  "monolithic": "Monolítica",
+		  "front": "Front",
+		  "back": "Back"
+		},
+		"repos": {
+		  "label": "Repositorios Git"
+		},
+		"git": {
+		  "label": "Repositorio Git",
+		  "hint": "Nombre del proyecto dentro de GitLab"
+		},
+		"pm": {
+		  "label": "Gestión de proyectos",
+		  "hint": "ID del proyecto en el gestor"
+		},
+		"multidomain": {
+		  "label": "Multi-dominio",
+		  "hint": "¿La aplicación será accesible desde varios dominios?"
+		},
+		"docs": {
+		  "label": "Documentación",
+		  "hint": "Enlace a la carpeta de documentación en Google Drive"
+		},
+		"appids": {
+		  "label": "Google Apps",
+		  "hint": ""
+		},
+		"project": {
+		  "label": "Proyecto",
+		  "hint": "¿A qué proyecto pertenece?"
+		}
+	  },
+	  "categories": {
+		"general": "General",
+		"appids": "Google Apps"
+	  }
+	},
+	"appengine": {
+	  "name": "Componente App Engine",
+	  "fields": {
+		"region": {
+		  "label": "Región",
+		  "hint": "¿En qué región se desplegará la aplicación?",
+		  "europe": "Europa",
+		  "usa": {
+			"central": "Estados Unidos Central",
+			"east1": "Estados Unidos Este"
+		  }
+		},
+		"domain": {
+		  "label": "Dominio",
+		  "dev": "dev.bbva.com",
+		  "bbva": "bbva.com"
+		}
+	  }
+	},
+
+	"appid": {
+	  "name": "Google App",
+	  "plural-name": "Google Apps",
+	  "categories": {
+		"general": "General",
+		"permission": "Permisos",
+		"component": "Componentes"
+	  },
+	  "fields": {
+		"appid": {
+		  "label": "App Id",
+		  "hint": "ID único de aplicación de Google"
+		},
+		"version": {
+		  "label": "Versión",
+		  "hint": "Versión desplegada en este AppId"
+		},
+		"env": {
+		  "label": "Entorno",
+		  "hint": "Entorno de la aplicación",
+		  "dev": "Desarrollo",
+		  "au": "Aceptación de Usuarios",
+		  "pro": "Producción"
+		},
+		"projectno": {
+		  "label": "Número de proyecto"
+		},
+		"app": {
+		  "label": "Aplicación"
+		},
+		"ci": {
+		  "label": "Integración continua",
+		  "hint": "Nombre de la tarea del sistema de CI"
+		},
+		"status": {
+		  "label": "Estado de la aplicación",
+		  "hint": "",
+		  "preload": "Pre-Carga",
+		  "deprecated": "Deprecada",
+		  "non-identified": "Sin identificar",
+		  "in-action": "En ejecución"
+		},
+		"archetype": {
+		  "label": "Arquetipo",
+		  "hint": "¿Qué arquetipo se utiliza en este entorno?"
+		},
+		"cassandra": {
+		  "label": "Cassandra",
+		  "hint": "¿Dispone de sistema de facturación integrado?"
+		},
+		"groups": {
+		  "label": "Roles"
+		}
+	  }
+	},
+	"permission": {
+	  "name": "Permiso",
+	  "plural-name": "Permisos",
+	  "fields": {
+		"code": {
+		  "label": "Código",
+		  "hint": "Código único del permiso"
+		},
+		"name": {
+		  "label": "Nombre",
+		  "hint": "Pon un nombre a este permiso (e.j. 'Crear Usuarios')"
+		},
+		"description": {
+		  "label": "Descripción",
+		  "hint": "Describe brevemente el permiso asignado a esto"
+		}
+	  }
+	},
+	"bill": {
+	  "name": "Factura",
+	  "plural-name": "Facturas",
+	  "action-name": "Facturación"
+	},
+	"stakeholder": {
+	  "name": "Sociedad",
+	  "plural-name": "Sociedades",
+	  "categories":{
+		"general": "General",
+		"projects": "Proyectos"
+	  },
+	  "fields": {
+		"name": {
+		  "label": "Nombre"
+		},
+		"projects": {
+		  "label": "Proyectos"
+		},
+		"type": {
+		  "label": "Tipo"
+		},
+		"user": {
+		  "label": "Usuario"
+		},
+		"stakeholder-rates": {
+		  "label": "Tasa de reparto"
+		},
+		"country":{
+		  "label": "País"
+		}
+	  }
+	}
+  },
+  "actions": {
+	"project-wizard": {
+	  "label": "Wizard",
+	  "modal-title": "Nuevo proyecto",
+	  "step0": {
+		"welcome-text": "Este wizard va a guiarte por unos sencillos pasos para crear y configurar tu proyecto. Durante el proceso crearemos el proyecto, y todas las apps que necesite para funcionar. Además, podrás crear los entornos dentro de la plataforma directamente. Si tienes cualquier duda pulsa F1 e intentaremos ayudarte.",
+		"key-preview": "La clave del proyecto será",
+		"error-key": "Solo letras y números. De 3 a 25 caracteres"
+	  },
+	  "step1": {
+		"default-apps": {
+		  "label": "¿Qué aplicaciones necesitas?",
+		  "prebuilt": {
+			"label": "Por defecto",
+			"ui": "UI",
+			"api": "API"
+		  }
+		}
+	  }
+	},
+	"stakeholder-rates": {
+	  "title": "Alta de tasas de reparto",
+	  "edit": "Editar",
+	  "delete": "Eliminar"
+	},
+	"view-child": {
+	  "label": "Ver"
+	},
+	"git-repo": {
+	  "title": "Añadir nuevo repositorio"
+	},
+	"update": {
+	  "label": "Actualizar"
+	},
+	"add-component": {
+	  "label": "Añadir",
+	  "type": "Tipo de componente a añadir"
+	}
+  },
+  "message": {
+	"action": {
+	  "next": "Siguiente"
+	},
+	"tabs": {
+	  "entity": {
+		"search": "Estás buscando un ",
+		"update": "Estás actualizando un",
+		"create": "Estas creando un"
+	  }
+	},
+	"loader": {
+	  "metadata": "Cargando metadatos",
+	  "default": "Cargando datos"
+	}
+  },
+  "C104": {
+	"update": "Subir documento",
+	"noDocument": "Sin documento",
+	"document": "Enlace al documento"
+  },
+  "GCPRole": {
+	"roles-editor": "Editor",
+	"roles-viewer": "Viewer"
+  },
+  "ALERT": {
+	"serverError": "Ha ocurrido un error procesando su solicitud",
+	"permissionError": "Permisos insuficientes"
+  }
+}
